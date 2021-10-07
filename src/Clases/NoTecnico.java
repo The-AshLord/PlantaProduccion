@@ -1,9 +1,6 @@
 package Clases;
 
-public class NoTecnico {
-
-	public NoTecnico() {
-		// TODO Auto-generated constructor stub
-	}
-
+public class NoTecnico extends Operativo{
+	
+	//De momento esta clase queda vacía porque todo lo que necesita lo hereda de Operativo y Empleado
 }

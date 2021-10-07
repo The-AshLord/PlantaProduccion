@@ -22,16 +22,43 @@ public class MainMenu {
 	              switch(OpcionUsuario)
 		             {
 		             	case 1: 
-		             		//Codigo Opción 1
+		             		Operativo.ConsultarCursos();
+		             		Operativo.ActualizarCursos();
+		             		Operativo.VerLabores();
+		             		Operativo.CambiarLabores();
+		             		Operativo.MDatosOperativo();
+		             		Operativo.DatosPersonales();
+		             		Operativo.Nomina();
+		             		Operativo.Vacaciones();
 		                    break;
 		                case 2: 
-		                	//Codigo Opción 2
+		                	Administrativo.ConsultarTitulos();
+		                	Administrativo.Informes();
+		                	Administrativo.MDatosAdminstrativo();
+		                	Administrativo.ModificarTitulos();
+		                	Administrativo.DatosPersonales();
+		                	Administrativo.Nomina();
+		                	Administrativo.Vacaciones();
 		                    break;
-		                case 3: 
-		                	//Codigo Opción 3
+		                case 3:
+		                	Tecnico.ConsultarCursos();
+		                	Tecnico.ActualizarCursos();
+		                	Tecnico.VerLabores();
+		                	Tecnico.CambiarLabores();
+		                	Tecnico.MDatosOperativo();
+		                	Tecnico.DatosPersonales();
+		                	Tecnico.Nomina();
+		                	Tecnico.Vacaciones();
 		                    break;
 		                case 4:
-		                	//Codigo Opción 4
+		                	NoTecnico.ConsultarCursos();
+		                	NoTecnico.ActualizarCursos();
+		                	NoTecnico.VerLabores();
+		                	NoTecnico.CambiarLabores();
+		                	NoTecnico.MDatosOperativo();
+		                	NoTecnico.DatosPersonales();
+		                	NoTecnico.Nomina();
+		                	NoTecnico.Vacaciones();
 		                	break;
 		                case 0: 
 		                    System.out.println("¡Gracias por Preferirnos!");

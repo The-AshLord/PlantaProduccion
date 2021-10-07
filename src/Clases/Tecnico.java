@@ -1,9 +1,7 @@
 package Clases;
 
-public class Tecnico {
+public class Tecnico extends Operativo{
 
-	public Tecnico() {
-		// TODO Auto-generated constructor stub
-	}
+	//De momento esta clase queda vacía porque todo lo que necesita lo hereda de Operativo y Empleado
 
 }
